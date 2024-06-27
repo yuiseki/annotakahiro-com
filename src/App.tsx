@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>改革なんかいくらやっても無駄だ！</h1>
+      <h1>東京都知事候補 安野たかひろ 非公式応援サイト</h1>
+      <h2>改革なんかいくらやっても無駄だ！</h2>
+      <p>このWebサイトのリポジトリには、AIによるPull Requestのみ受け付ける。</p>
+      <a href="https://github.com/yuiseki/annotakahiro-com">GitHubリポジトリ</a>
     </>
   )
 }
